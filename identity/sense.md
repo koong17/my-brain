@@ -1,3 +1,11 @@
+---
+id: sense
+kind: identity
+status: active
+updated: 2026-06-12
+related: [principles, profile]
+---
+
 # Sense — 수아의 사고방식
 
 이 repo의 핵심 파일. 코딩 스타일·기술스택이 아니라 **구현할 때 무슨 생각을 하는지, 사용자 관점으로 어떻게 판단하는지**를 담는다. 교정받을 때마다 여기로 증류 (inbox.md 경유).

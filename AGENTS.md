@@ -34,6 +34,26 @@
 | `.agent/skills/` | 에이전트 공용 스킬 |
 | `.agent/agents/` | 에이전트 공용 서브에이전트 정의 |
 
+## 문서 규약 (그래프 개념)
+
+모든 문서는 frontmatter 보유:
+
+```yaml
+---
+id: sense              # 파일명과 일치, kebab-case
+kind: identity         # identity | knowledge | workflow | decision | project | meta
+status: active         # draft | active | superseded
+updated: 2026-06-12    # 내용 수정 시 갱신
+supersedes: old-id     # (선택) 이 문서가 대체하는 문서
+related: [other-id]    # (선택) 관련 문서
+---
+```
+
+- **lifecycle**: 문서는 지우지 않고 `superseded`로 표시. 새 문서가 `supersedes`로 가리킴
+- **write gate**: 같은 주제에 모순되는 `active` 문서 2개 금지 — 발견 즉시 하나를 supersede
+- **staleness**: inbox 정리 세션 때 `updated` 오래된 active 문서 점검 — 아직 맞는지 확인 후 날짜 갱신 or supersede
+- **불변성**: `superseded` 문서는 수정 금지. 역사 기록임
+
 ## 규칙
 
 - 이 폴더의 글은 짧고 살아있게. 죽은 위키 금지.

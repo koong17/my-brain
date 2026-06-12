@@ -1,3 +1,11 @@
+---
+id: style
+kind: identity
+status: active
+updated: 2026-06-12
+related: [profile]
+---
+
 # Style — 코드·커뮤니케이션 스타일
 
 ## 커밋 메시지

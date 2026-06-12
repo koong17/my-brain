@@ -1,3 +1,10 @@
+---
+id: ticket
+kind: workflow
+status: draft
+updated: 2026-06-12
+---
+
 # Workflow: 티켓 처리
 
 <!-- JIRA 티켓 받았을 때 처리 순서. 상태 전이 규칙, 브랜치/MR 컨벤션 포함 -->

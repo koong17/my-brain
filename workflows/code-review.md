@@ -1,3 +1,11 @@
+---
+id: code-review
+kind: workflow
+status: draft
+updated: 2026-06-12
+related: [principles]
+---
+
 # Workflow: 코드 리뷰
 
 <!-- 리뷰 절차 + 체크리스트. 판단 기준 자체는 identity/principles.md 참조 -->

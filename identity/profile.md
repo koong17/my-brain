@@ -1,3 +1,11 @@
+---
+id: profile
+kind: identity
+status: active
+updated: 2026-06-12
+related: [sense, style]
+---
+
 # Profile
 
 ## 역할

@@ -1,3 +1,11 @@
+---
+id: principles
+kind: identity
+status: active
+updated: 2026-06-12
+related: [sense]
+---
+
 # Principles — 기술 판단 기준
 
 > 참고용 취향. 기술 선택·코딩 스타일은 에이전트가 best practice를 따르면 됨 — 핵심은 [[sense]] (`sense.md`). 아래는 충돌 시 기준 정도.

@@ -1,3 +1,10 @@
+---
+id: daily
+kind: workflow
+status: draft
+updated: 2026-06-12
+---
+
 # Workflow: 루틴
 
 <!-- 하루/주간 루틴. 에이전트가 자동화 대상 찾을 때 보는 파일 -->

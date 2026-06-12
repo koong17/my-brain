@@ -1,3 +1,10 @@
+---
+id: team
+kind: knowledge
+status: draft
+updated: 2026-06-12
+---
+
 # Team
 
 <!-- 팀 구조, 사람별 컨텍스트. 누구한테 뭘 물어봐야 하는지 -->
